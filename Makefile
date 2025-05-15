@@ -1,3 +1,5 @@
+export DEBUG=0
+export FINALPACKAGE=1
 
 # 插件：显示编译成功，显示的信息
 PACKAGE_IDENTIFIER = com.pxx917144686.x
