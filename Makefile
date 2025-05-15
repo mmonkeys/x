@@ -54,4 +54,4 @@ x_FRAMEWORKS = UIKit Foundation UserNotifications
 x_CFLAGS = -fobjc-arc
 
 after-package::
-	@echo -e "\033[32m==>\033[0m 编译完成！生成deb包：$$(ls -t packages/*.deb | head -1)"
+	@echo -e "\033[32m==>\033[0m 编译完成！生成deb包：$$(ls -t *.deb | head -1)"
